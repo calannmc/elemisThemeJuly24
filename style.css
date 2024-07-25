@@ -1,7 +1,110 @@
 @charset "UTF-8";
 /***** Normalize.css *****/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+  font-family: 'visuelt-regular';
+  src: url('$assets-visuelt-regular-eot');
+  src: url('$assets-visuelt-regular-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-regular-woff2') format('woff2'),
+       url('$assets-visuelt-regular-woff') format('woff'),
+       url('$assets-visuelt-regular-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'visuelt-thin';
+  src: url('$assets-visuelt-thin-eot');
+  src: url('$assets-visuelt-thin-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-thin-woff2') format('woff2'),
+       url('$assets-visuelt-thin-woff') format('woff'),
+       url('$assets-visuelt-thin-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'visuelt-medium';
+  src: url('$assets-visuelt-medium-eot');
+  src: url('$assets-visuelt-medium-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-medium-woff2') format('woff2'),
+       url('$assets-visuelt-medium-woff') format('woff'),
+       url('$assets-visuelt-medium-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'visuelt-light';
+  src: url('$assets-visuelt-light-eot');
+  src: url('$assets-visuelt-light-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-light-woff2') format('woff2'),
+       url('$assets-visuelt-light-woff') format('woff'),
+       url('$assets-visuelt-light-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'visuelt-bold';
+  src: url('$assets-visuelt-bold-eot');
+  src: url('$assets-visuelt-bold-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-bold-woff2') format('woff2'),
+       url('$assets-visuelt-bold-woff') format('woff'),
+       url('$assets-visuelt-bold-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'visuelt-black';
+  src: url('$assets-visuelt-bold-eot');
+  src: url('$assets-visuelt-bold-eot?#iefix') format('embedded-opentype'),
+       url('$assets-visuelt-bold-woff2') format('woff2'),
+       url('$assets-visuelt-bold-woff') format('woff'),
+       url('$assets-visuelt-bold-ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: CanelaDeck-Thin;
+  src: url($assets-caneladeck-thin-web-woff) format("woff");
+  src: url($assets-caneladeck-thin-web-woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: CanelaDeck-ThinItalic;
+  src: url($assets-caneladeck-thinitalic-web-woff) format("woff");
+  src: url($assets-caneladeck-thinitalic-web-woff) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CanelaDeck-Regular;
+  src: url($assets-caneladeck-regularitalic-web-woff) format("woff");
+  src: url($assets-caneladeck-regularitalic-web-woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CanelaDeck-RegularItalic;
+  src: url($assets-caneladeck-regularitalic-web-woff) format("woff");
+  src: url($assets-caneladeck-regularitalic-web-woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CanelaDeck-LightItalic;
+  src: url($assets-caneladeck-lightitalic-web-woff) format("woff");
+  src: url($assets-caneladeck-lightitalic-web-woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 .trending-faqs-header {
   display: flex;

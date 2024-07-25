@@ -1,7 +1,7 @@
 {
   "name": "elemisTheme-dev July 24",
   "author": "Zendesk",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -71,7 +71,7 @@
           "options": [
             {
               "label": "System",
-              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+              "value": "CanelaDeck-Regular"
             },
             {
               "label": "Arial",

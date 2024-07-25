@@ -1,6 +1,3 @@
-Sure, here is the updated manifest file with the "visuelt" and "CanelaDeck" fonts added to the "heading_font" and "text_font" options:
-
-```json
 {
   "name": "elemisTheme-dev July 24",
   "author": "Zendesk",
@@ -674,6 +671,4 @@ _label",
     }
   ]
 }
-```
 
-This updated manifest file includes the new "Visuelt" font in both the "heading_font" and "text_font" options.

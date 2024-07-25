@@ -1540,6 +1540,7 @@ ul {
   color: $blocks_txt_color_hover;
   box-shadow: 0px 0px #{$blocks_shadow}px 0px $blocks_shadow_color;
   transition: all 0.2s;
+  background-color:$red;
 
 }
 

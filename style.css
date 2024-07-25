@@ -82,8 +82,8 @@
 
 @font-face {
   font-family: CanelaDeck-Regular;
-  src: url($assets-caneladeck-regularitalic-web-woff) format("woff");
-  src: url($assets-caneladeck-regularitalic-web-woff2) format("woff2");
+  src: url($assets-caneladeck-regular-web-woff) format("woff");
+  src: url($assets-caneladeck-regular-web-woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

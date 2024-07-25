@@ -59,157 +59,118 @@
         }
       ]
     },
+   {
+  "label": "fonts_group_label",
+  "variables": [
     {
-      "label": "fonts_group_label",
-      "variables": [
+      "identifier": "heading_font",
+      "type": "list",
+      "description": "heading_font_description",
+      "label": "heading_font_label",
+      "value": "'visuelt-regular', sans-serif",
+      "options": [
         {
-          "identifier": "heading_font",
-          "type": "list",
-          "description": "heading_font_description",
-          "label": "heading_font_label",
-          "value": "'Century Gothic', sans-serif",
-          "options": [
-            {
-              "label": "System",
-              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Arial",
-              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Arial Black",
-              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Baskerville",
-              "value": "Baskerville, 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Century Gothic",
-              "value": "'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Copperplate Light",
-              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
-            },
-            {
-              "label": "Courier New",
-              "value": "'Courier New', Courier, monospace"
-            },
-            {
-              "label": "Futura",
-              "value": "Futura, 'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Garamond",
-              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Geneva",
-              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
-            },
-            {
-              "label": "Georgia",
-              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
-            },
-            {
-              "label": "Helvetica",
-              "value": "Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Helvetica Neue",
-              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
-            },
-            {
-              "label": "Impact",
-              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
-            },
-            {
-              "label": "Lucida Grande",
-              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
-            },
-            {
-              "label": "Trebuchet MS",
-              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
-            }
-          ]
+          "label": "Visuelt Regular",
+          "value": "'visuelt-regular', sans-serif"
         },
         {
-          "identifier": "text_font",
-          "type": "list",
-          "description": "text_font_description",
-          "label": "text_font_label",
-          "value": "'Century Gothic', sans-serif",
-          "options": [
-            {
-              "label": "System",
-              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Arial",
-              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Arial Black",
-              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Baskerville",
-              "value": "Baskerville, 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Century Gothic",
-              "value": "'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Copperplate Light",
-              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
-            },
-            {
-              "label": "Courier New",
-              "value": "'Courier New', Courier, monospace"
-            },
-            {
-              "label": "Futura",
-              "value": "Futura, 'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Garamond",
-              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Geneva",
-              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
-            },
-            {
-              "label": "Georgia",
-              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
-            },
-            {
-              "label": "Helvetica",
-              "value": "Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Helvetica Neue",
-              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
-            },
-            {
-              "label": "Impact",
-              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
-            },
-            {
-              "label": "Lucida Grande",
-              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
-            },
-            {
-              "label": "Trebuchet MS",
-              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
-            }
-          ]
+          "label": "Visuelt Thin",
+          "value": "'visuelt-thin', sans-serif"
+        },
+        {
+          "label": "Visuelt Medium",
+          "value": "'visuelt-medium', sans-serif"
+        },
+        {
+          "label": "Visuelt Light",
+          "value": "'visuelt-light', sans-serif"
+        },
+        {
+          "label": "Visuelt Bold",
+          "value": "'visuelt-bold', sans-serif"
+        },
+        {
+          "label": "Visuelt Black",
+          "value": "'visuelt-black', sans-serif"
+        },
+        {
+          "label": "Canela Deck Thin",
+          "value": "'CanelaDeck-Thin', sans-serif"
+        },
+        {
+          "label": "Canela Deck Thin Italic",
+          "value": "'CanelaDeck-ThinItalic', sans-serif"
+        },
+        {
+          "label": "Canela Deck Regular",
+          "value": "'CanelaDeck-Regular', sans-serif"
+        },
+        {
+          "label": "Canela Deck Regular Italic",
+          "value": "'CanelaDeck-RegularItalic', sans-serif"
+        },
+        {
+          "label": "Canela Deck Light Italic",
+          "value": "'CanelaDeck-LightItalic', sans-serif"
         }
       ]
     },
+    {
+      "identifier": "text_font",
+      "type": "list",
+      "description": "text_font_description",
+      "label": "text_font_label",
+      "value": "'visuelt-regular', sans-serif",
+      "options": [
+        {
+          "label": "Visuelt Regular",
+          "value": "'visuelt-regular', sans-serif"
+        },
+        {
+          "label": "Visuelt Thin",
+          "value": "'visuelt-thin', sans-serif"
+        },
+        {
+          "label": "Visuelt Medium",
+          "value": "'visuelt-medium', sans-serif"
+        },
+        {
+          "label": "Visuelt Light",
+          "value": "'visuelt-light', sans-serif"
+        },
+        {
+          "label": "Visuelt Bold",
+          "value": "'visuelt-bold', sans-serif"
+        },
+        {
+          "label": "Visuelt Black",
+          "value": "'visuelt-black', sans-serif"
+        },
+        {
+          "label": "Canela Deck Thin",
+          "value": "'CanelaDeck-Thin', sans-serif"
+        },
+        {
+          "label": "Canela Deck Thin Italic",
+          "value": "'CanelaDeck-ThinItalic', sans-serif"
+        },
+        {
+          "label": "Canela Deck Regular",
+          "value": "'CanelaDeck-Regular', sans-serif"
+        },
+        {
+          "label": "Canela Deck Regular Italic",
+          "value": "'CanelaDeck-RegularItalic', sans-serif"
+        },
+        {
+          "label": "Canela Deck Light Italic",
+          "value": "'CanelaDeck-LightItalic', sans-serif"
+        }
+      ]
+    }
+  ]
+},
+
     {
       "label": "brand_group_label",
       "variables": [

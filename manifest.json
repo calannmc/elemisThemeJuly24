@@ -1,3 +1,6 @@
+Sure, here is the updated manifest file with the "visuelt" and "CanelaDeck" fonts added to the "heading_font" and "text_font" options:
+
+```json
 {
   "name": "elemisTheme-dev July 24",
   "author": "Zendesk",
@@ -132,6 +135,10 @@
             {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            },
+            {
+              "label": "Visuelt",
+              "value": "'visuelt-regular', sans-serif"
             }
           ]
         },
@@ -205,6 +212,10 @@
             {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            },
+            {
+              "label": "Visuelt",
+              "value": "'visuelt-regular', sans-serif"
             }
           ]
         }
@@ -270,7 +281,9 @@
         {
           "identifier": "scoped_kb_search",
           "type": "checkbox",
-          "description": "scoped_knowledge_base_search_description",
+          "description": "scoped_knowledge_base_search_description
+
+",
           "label": "scoped_knowledge_base_search_label",
           "value": true
         },
@@ -576,7 +589,9 @@
           "identifier": "show_follow_article",
           "type": "checkbox",
           "description": "follow_article_description",
-          "label": "follow_article_label",
+          "label": "follow_article
+
+_label",
           "value": false
         },
         {
@@ -657,11 +672,8 @@
         }
       ]
     }
-  ],
-  "styles": [
-    {
-      "name": "custom_fonts",
-      "content": "@font-face { font-family: 'visuelt-regular'; src: url('$assets-visuelt-regular-eot'); src: url('$assets-visuelt-regular-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-regular-woff2') format('woff2'), url('$assets-visuelt-regular-woff') format('woff'), url('$assets-visuelt-regular-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'visuelt-thin'; src: url('$assets-visuelt-thin-eot'); src: url('$assets-visuelt-thin-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-thin-woff2') format('woff2'), url('$assets-visuelt-thin-woff') format('woff'), url('$assets-visuelt-thin-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'visuelt-medium'; src: url('$assets-visuelt-medium-eot'); src: url('$assets-visuelt-medium-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-medium-woff2') format('woff2'), url('$assets-visuelt-medium-woff') format('woff'), url('$assets-visuelt-medium-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'visuelt-light'; src: url('$assets-visuelt-light-eot'); src: url('$assets-visuelt-light-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-light-woff2') format('woff2'), url('$assets-visuelt-light-woff') format('woff'), url('$assets-visuelt-light-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'visuelt-bold'; src: url('$assets-visuelt-bold-eot'); src: url('$assets-visuelt-bold-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-bold-woff2') format('woff2'), url('$assets-visuelt-bold-woff') format('woff'), url('$assets-visuelt-bold-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'visuelt-black'; src: url('$assets-visuelt-bold-eot'); src: url('$assets-visuelt-bold-eot?#iefix') format('embedded-opentype'), url('$assets-visuelt-bold-woff2') format('woff2'), url('$assets-visuelt-bold-woff') format('woff'), url('$assets-visuelt-bold-ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: CanelaDeck-Thin; src: url($assets-caneladeck-thin-web-woff) format('woff'); src: url($assets-caneladeck-thin-web-woff2) format('woff2'); font-weight: 400; font-style: normal; font-display: swap; } @font-face { font-family: CanelaDeck-ThinItalic; src: url($assets-caneladeck-thinitalic-web-woff) format('woff'); src: url($assets-caneladeck-thinitalic-web-woff2) format('woff2'); font-weight: 400; font-style: normal; font-display: swap; } @font-face { font-family: CanelaDeck-Regular; src: url($assets-caneladeck-regular-web-woff) format('woff'); src: url($assets-caneladeck-regular-web-woff2) format('woff2'); font-weight: 400; font-style: normal; font-display: swap; } @font-face { font-family: CanelaDeck-RegularItalic; src: url($assets-caneladeck-regularitalic-web-woff) format('woff'); src: url($assets-caneladeck-regularitalic-web-woff2) format('woff2'); font-weight: 400; font-style: normal; font-display: swap; } @font-face { font-family: CanelaDeck-LightItalic; src: url($assets-caneladeck-lightitalic-web-woff) format('woff'); src: url($assets-caneladeck-lightitalic-web-woff2) format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }"
-    }
   ]
 }
+```
+
+This updated manifest file includes the new "Visuelt" font in both the "heading_font" and "text_font" options.

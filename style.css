@@ -1624,7 +1624,7 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
   border-radius:50%;
-  background-color:red;
+  background-color:#94b9ff;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -5619,7 +5619,7 @@ html[dir="rtl"] .notification-left-aligned {
   outline: 0;
   box-shadow: 0 0 0 3px $brand_color;
   text-decoration: none;
-  background-color:black;
+  background-color:transparent;
 }
 
 .blocks-item-title {

@@ -1,7 +1,7 @@
 {
   "name": "elemisTheme-dev July 24",
   "author": "Zendesk",
-  "version": "7.0.6",
+  "version": "7.0.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -71,7 +71,7 @@
           "options": [
             {
               "label": "System",
-              "value": "visuelt-regular"
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
               "label": "Arial",
@@ -132,10 +132,6 @@
             {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
-            },
-            {
-              "label": "Visuelt",
-              "value": "'visuelt-regular', sans-serif"
             }
           ]
         },
@@ -148,7 +144,7 @@
           "options": [
             {
               "label": "System",
-              "value": "CanelaDeck-Regular"
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
               "label": "Arial",
@@ -209,10 +205,6 @@
             {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
-            },
-            {
-              "label": "Visuelt",
-              "value": "'visuelt-regular', sans-serif"
             }
           ]
         }
@@ -667,4 +659,3 @@
     }
   ]
 }
-

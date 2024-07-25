@@ -223,8 +223,8 @@ h3,
 h4,
 h5,
 h6 {
-/*   font-family: $heading_font; */
-  font-family: 'Franklin Gothic Demi', sans-serif;
+font-family: $heading_font;
+ 
   margin-top: 0;
   font-weight: 400;
 }
@@ -2736,8 +2736,8 @@ ul {
   -webkit-hyphens: auto;
   word-break: break-word;
   word-wrap: break-word;
-/*   font-family: $text_font; */
-  font-family: 'Franklin Gothic Book', sans-serif;
+font-family: $text_font;
+
   line-height: 1.6;
   overflow-x: auto;
 }

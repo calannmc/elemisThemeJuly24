@@ -1,0 +1,661 @@
+{
+  "name": "elemisTheme-dev July 24",
+  "author": "Zendesk",
+  "version": "7.0.1",
+  "api_version": 3,
+  "default_locale": "en-us",
+  "settings": [
+    {
+      "label": "colors_group_label",
+      "variables": [
+        {
+          "identifier": "brand_color",
+          "type": "color",
+          "description": "brand_color_description",
+          "label": "brand_color_label",
+          "value": "rgba(242, 245, 248, 1)"
+        },
+        {
+          "identifier": "brand_text_color",
+          "type": "color",
+          "description": "brand_text_color_description",
+          "label": "brand_text_color_label",
+          "value": "rgba(3, 16, 30, 1)"
+        },
+        {
+          "identifier": "text_color",
+          "type": "color",
+          "description": "text_color_description",
+          "label": "text_color_label",
+          "value": "rgba(32, 30, 29, 1)"
+        },
+        {
+          "identifier": "link_color",
+          "type": "color",
+          "description": "link_color_description",
+          "label": "link_color_label",
+          "value": "rgba(15, 53, 84, 1)"
+        },
+        {
+          "identifier": "hover_link_color",
+          "type": "color",
+          "description": "hover_link_color_description",
+          "label": "hover_link_color_label",
+          "value": "rgba(15, 53, 84, 1)"
+        },
+        {
+          "identifier": "visited_link_color",
+          "type": "color",
+          "description": "visited_link_color_description",
+          "label": "visited_link_color_label",
+          "value": "rgba(15, 53, 84, 1)"
+        },
+        {
+          "identifier": "background_color",
+          "type": "color",
+          "description": "background_color_description",
+          "label": "background_color_label",
+          "value": "rgba(245, 245, 245, 1)"
+        }
+      ]
+    },
+    {
+      "label": "fonts_group_label",
+      "variables": [
+        {
+          "identifier": "heading_font",
+          "type": "list",
+          "description": "heading_font_description",
+          "label": "heading_font_label",
+          "value": "'Century Gothic', sans-serif",
+          "options": [
+            {
+              "label": "System",
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Arial",
+              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            }
+          ]
+        },
+        {
+          "identifier": "text_font",
+          "type": "list",
+          "description": "text_font_description",
+          "label": "text_font_label",
+          "value": "'Century Gothic', sans-serif",
+          "options": [
+            {
+              "label": "System",
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Arial",
+              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brand_group_label",
+      "variables": [
+        {
+          "identifier": "logo",
+          "type": "file",
+          "description": "logo_description",
+          "label": "logo_label"
+        },
+        {
+          "identifier": "show_brand_name",
+          "type": "checkbox",
+          "description": "show_brand_name_description",
+          "label": "show_brand_name_label",
+          "value": false
+        },
+        {
+          "identifier": "favicon",
+          "type": "file",
+          "description": "favicon_description",
+          "label": "favicon_label"
+        }
+      ]
+    },
+    {
+      "label": "images_group_label",
+      "variables": [
+        {
+          "identifier": "homepage_background_image",
+          "type": "file",
+          "description": "homepage_background_image_description",
+          "label": "homepage_background_image_label"
+        },
+        {
+          "identifier": "community_background_image",
+          "type": "file",
+          "description": "community_background_image_description",
+          "label": "community_background_image_label"
+        },
+        {
+          "identifier": "community_image",
+          "type": "file",
+          "description": "community_image_description",
+          "label": "community_image_label"
+        }
+      ]
+    },
+    {
+      "label": "search_group_label",
+      "variables": [
+        {
+          "identifier": "instant_search",
+          "type": "checkbox",
+          "description": "instant_search_description",
+          "label": "instant_search_label",
+          "value": true
+        },
+        {
+          "identifier": "scoped_kb_search",
+          "type": "checkbox",
+          "description": "scoped_knowledge_base_search_description",
+          "label": "scoped_knowledge_base_search_label",
+          "value": true
+        },
+        {
+          "identifier": "scoped_community_search",
+          "type": "checkbox",
+          "description": "scoped_community_search_description",
+          "label": "scoped_community_search_label",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "home_page_group_label",
+      "variables": [
+        {
+          "identifier": "show_recent_activity",
+          "type": "checkbox",
+          "description": "recent_activity_description",
+          "label": "recent_activity_label",
+          "value": false
+        }
+      ]
+    },
+    {
+      "label": "Category blocks",
+      "variables": [
+        {
+          "identifier": "blocks_padding",
+          "type": "range",
+          "description": "Padding size of the category blocks",
+          "label": "Blocks padding",
+          "value": 21,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "identifier": "blocks_description",
+          "type": "list",
+          "description": "Show/hide item description",
+          "label": "Item description",
+          "value": "none",
+          "options": [
+            {
+              "label": "Show",
+              "value": "inline"
+            },
+            {
+              "label": "Hide",
+              "value": "none"
+            }
+          ]
+        },
+        {
+          "identifier": "blocks_font_size",
+          "type": "range",
+          "description": "Title font size of the category blocks",
+          "label": "Item title font size",
+          "value": 16,
+          "min": 5,
+          "max": 50
+        },
+        {
+          "identifier": "blocks_font_case",
+          "type": "list",
+          "description": "Title font case of the category blocks",
+          "label": "Item title font case",
+          "value": "capitalize",
+          "options": [
+            {
+              "label": "Default",
+              "value": "none"
+            },
+            {
+              "label": "Uppercase",
+              "value": "uppercase"
+            },
+            {
+              "label": "Lowercase",
+              "value": "lowercase"
+            },
+            {
+              "label": "Capitalize",
+              "value": "capitalize"
+            }
+          ]
+        },
+        {
+          "identifier": "blocks_font_weight",
+          "type": "list",
+          "description": "Title font weight of the category blocks",
+          "label": "Item title font weight",
+          "value": "600",
+          "options": [
+            {
+              "label": "Light",
+              "value": "300"
+            },
+            {
+              "label": "Normal",
+              "value": "normal"
+            },
+            {
+              "label": "Semi Bold",
+              "value": "600"
+            },
+            {
+              "label": "Bold",
+              "value": "900"
+            }
+          ]
+        },
+        {
+          "identifier": "blocks_txt_color",
+          "type": "color",
+          "description": "Text color of the category blocks",
+          "label": "Text color",
+          "value": "rgba(15, 53, 84, 1)"
+        },
+        {
+          "identifier": "blocks_txt_color_hover",
+          "type": "color",
+          "description": "Text color of the category blocks (hover state)",
+          "label": "Text color (hover)",
+          "value": "rgba(155, 155, 155, 1)"
+        },
+        {
+          "identifier": "blocks_bg_color_top",
+          "type": "color",
+          "description": "Blocks top gradient background color",
+          "label": "Top gradient bg color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "identifier": "blocks_bg_color_bottom",
+          "type": "color",
+          "description": "Blocks bottom gradient background color",
+          "label": "Bottom gradient bg color",
+          "value": "rgba(238, 238, 238, 0.01)"
+        },
+        {
+          "identifier": "blocks_bg_color_top_h",
+          "type": "color",
+          "description": "Blocks top gradient background color (hover state)",
+          "label": "Top gradient bg color (hover)",
+          "value": "rgba(155, 155, 155, 1)"
+        },
+        {
+          "identifier": "blocks_bg_color_bottom_h",
+          "type": "color",
+          "description": "Blocks bottom gradient background color (hover state)",
+          "label": "Bottom gradient bg color (hover)",
+          "value": "rgba(155, 155, 155, 1)"
+        },
+        {
+          "identifier": "blocks_border_color",
+          "type": "color",
+          "description": "Border color of the category blocks",
+          "label": "Border color",
+          "value": "rgba(155, 155, 155, 1)"
+        },
+        {
+          "identifier": "blocks_border_color_h",
+          "type": "color",
+          "description": "Border color of the category blocks (hover state)",
+          "label": "Border color (hover)",
+          "value": "rgba(155, 155, 155, 1)"
+        },
+        {
+          "identifier": "blocks_shadow",
+          "type": "range",
+          "description": "Shadow size of the category blocks (hover state)",
+          "label": "Shadow size (hover)",
+          "value": 10,
+          "min": 0,
+          "max": 20
+        },
+        {
+          "identifier": "blocks_shadow_color",
+          "type": "color",
+          "description": "Shadow color of the category blocks (hover state)",
+          "label": "Shadow color (hover)",
+          "value": "rgba(0, 0, 0, 0.4)"
+        }
+      ]
+    },
+    {
+      "label": "Category icons",
+      "variables": [
+        {
+          "identifier": "blocks_icons",
+          "type": "list",
+          "description": "Show/hide category icons",
+          "label": "Category icons",
+          "value": "block",
+          "options": [
+            {
+              "label": "Show",
+              "value": "block"
+            },
+            {
+              "label": "Hide",
+              "value": "none"
+            }
+          ]
+        },
+        {
+          "identifier": "blocks_icons_size",
+          "type": "range",
+          "description": "Size of the category icons",
+          "label": "Icon size",
+          "value": 50,
+          "min": 30,
+          "max": 200
+        },
+        {
+          "identifier": "blocks_icon_1",
+          "type": "file",
+          "description": "Home category icon #1",
+          "label": "Home category icon #1"
+        },
+        {
+          "identifier": "blocks_icon_2",
+          "type": "file",
+          "description": "Home category icon #2",
+          "label": "Home category icon #2"
+        },
+        {
+          "identifier": "blocks_icon_3",
+          "type": "file",
+          "description": "Home category icon #3",
+          "label": "Home category icon #3"
+        },
+        {
+          "identifier": "blocks_icon_4",
+          "type": "file",
+          "description": "Home category icon #4",
+          "label": "Home category icon #4"
+        },
+        {
+          "identifier": "blocks_icon_5",
+          "type": "file",
+          "description": "Home category icon #5",
+          "label": "Home category icon #5"
+        },
+        {
+          "identifier": "blocks_icon_6",
+          "type": "file",
+          "description": "Home category icon #6",
+          "label": "Home category icon #6"
+        },
+        {
+          "identifier": "blocks_icon_7",
+          "type": "file",
+          "description": "Home category icon #7",
+          "label": "Home category icon #7"
+        },
+        {
+          "identifier": "blocks_icon_8",
+          "type": "file",
+          "description": "Home category icon #8",
+          "label": "Home category icon #8"
+        },
+        {
+          "identifier": "blocks_icon_9",
+          "type": "file",
+          "description": "Home category icon #9",
+          "label": "Home category icon #9"
+        },
+        {
+          "identifier": "blocks_icon_10",
+          "type": "file",
+          "description": "Home category icon #10",
+          "label": "Home category icon #10"
+        }
+      ]
+    },
+    {
+      "label": "article_page_group_label",
+      "variables": [
+        {
+          "identifier": "show_articles_in_section",
+          "type": "checkbox",
+          "description": "articles_in_section_description",
+          "label": "articles_in_section_label",
+          "value": true
+        },
+        {
+          "identifier": "show_article_author",
+          "type": "checkbox",
+          "description": "article_author_description",
+          "label": "article_author_label",
+          "value": false
+        },
+        {
+          "identifier": "show_article_comments",
+          "type": "checkbox",
+          "description": "article_comments_description",
+          "label": "article_comments_label",
+          "value": false
+        },
+        {
+          "identifier": "show_follow_article",
+          "type": "checkbox",
+          "description": "follow_article_description",
+          "label": "follow_article_label",
+          "value": false
+        },
+        {
+          "identifier": "show_recently_viewed_articles",
+          "type": "checkbox",
+          "description": "recently_viewed_articles_description",
+          "label": "recently_viewed_articles_label",
+          "value": false
+        },
+        {
+          "identifier": "show_related_articles",
+          "type": "checkbox",
+          "description": "related_articles_description",
+          "label": "related_articles_label",
+          "value": true
+        },
+        {
+          "identifier": "show_article_sharing",
+          "type": "checkbox",
+          "description": "article_sharing_description",
+          "label": "article_sharing_label",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "section_page_group_label",
+      "variables": [
+        {
+          "identifier": "show_follow_section",
+          "type": "checkbox",
+          "description": "follow_section_description",
+          "label": "follow_section_label",
+          "value": false
+        }
+      ]
+    },
+    {
+      "label": "community_post_group_label",
+      "variables": [
+        {
+          "identifier": "show_follow_post",
+          "type": "checkbox",
+          "description": "follow_post_description",
+          "label": "follow_post_label",
+          "value": false
+        },
+        {
+          "identifier": "show_post_sharing",
+          "type": "checkbox",
+          "description": "post_sharing_description",
+          "label": "post_sharing_label",
+          "value": false
+        }
+      ]
+    },
+    {
+      "label": "community_topic_group_label",
+      "variables": [
+        {
+          "identifier": "show_follow_topic",
+          "type": "checkbox",
+          "description": "follow_topic_description",
+          "label": "follow_topic_label",
+          "value": false
+        }
+      ]
+    },
+    {
+      "label": "request_list_group_label",
+      "variables": [
+        {
+          "identifier": "request_list_beta",
+          "type": "checkbox",
+          "description": "request_list_beta_description",
+          "label": "request_list_beta_label",
+          "value": true
+        }
+      ]
+    }
+  ]
+}

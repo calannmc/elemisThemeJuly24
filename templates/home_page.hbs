@@ -1,0 +1,144 @@
+
+  <h1 class="visibility-hidden">{{ help_center.name }}</h1>
+
+  <section id="main-content" class="section hero">
+    <h1 class="intro-title">{{dc 'welcome_message'}}</h1>
+    <div class="hero-inner">
+      <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+      </svg>
+      {{search submit=false instant=settings.instant_search class='search search-full'}}
+    </div>
+  </section>
+
+  <div class="container">
+    {{#if promoted_articles}}
+    <section class="trending_faqs">
+      <div class="trending-faqs-header">
+        <h2>{{dc 'trending_faqs'}}</h2>
+        <a href="#faq-section-container" class="jump-to-faq-link">Jump to FAQ</a>
+      </div>
+      <ul class="article-list promoted-articles">
+        {{#each promoted_articles}}
+        <li class="promoted-articles-item">
+          <a href="{{url}}">
+            {{title}}
+            {{#if internal}}
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-lock" title="{{t 'internal'}}">
+              <rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1"/>
+              <path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
+            </svg>
+            {{/if}}
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </section>
+    {{/if}}
+  </div>
+
+  <div class="container">
+    <section class="section knowledge-base">
+      <h2 class="topic_title">{{dc 'browse'}}</h2>
+      <section class="categories blocks">
+        <ul class="blocks-list">
+          {{#each categories}}
+          {{#if ../has_multiple_categories}}
+          <li class="blocks-item">
+            <a href='{{url}}' class="blocks-item-link">
+              <span class="blocks-item-title">{{name}}</span>
+              <span class="blocks-item-description">{{excerpt description}}</span>
+            </a>
+          </li>
+          {{else}}
+          {{#each sections}}
+          <li class="blocks-item">
+            <a href='{{url}}' class="blocks-item-link">
+              <span class="blocks-item-title">{{name}}</span>
+              <span class="blocks-item-description">{{excerpt description}}</span>
+            </a>
+          </li>
+          {{/each}}
+          {{/if}}
+          {{/each}}
+        </ul>
+        {{pagination}}
+      </section>
+    </section>
+
+    <!-- Placeholder for FAQ section at the bottom -->
+    <section id="faq-section-container" class="knowledge-base">
+      <h2>FAQ</h2>
+      <div id="faq-section"></div>
+    </section>
+
+    {{!--{{#if help_center.community_enabled}}-->
+    <section class="section home-section community">
+      <h2>{{t 'community'}}</h2>
+      {{#link 'community' class='community-link'}}
+      {{t 'join_conversation'}}
+      {{/link}}
+      <div class="community-image"></div>
+    </section>
+    {{/if}}
+
+    <section class="section home-section activity">
+      {{#if settings.show_recent_activity}}
+      {{recent_activity}}
+      {{/if}}
+    </section>
+  </div>--}}
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log('Script loaded'); // Verify script execution
+
+    // Function to fetch FAQ section data
+    function fetchFAQSection() {
+      const faqSectionId = '201522569'; // Replace with your FAQ section ID
+      const faqSectionUrl = `https://help.elemis.com/api/v2/help_center/sections/${faqSectionId}/articles.json`;
+
+      console.log('Fetching FAQ section from URL:', faqSectionUrl); // Log URL
+
+      fetch(faqSectionUrl)
+        .then(response => {
+          console.log('Fetch response status:', response.status); // Log response status
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log('API Response:', data); // Log the API response
+          const faqSectionContainer = document.getElementById('faq-section');
+          if (data.articles && data.articles.length > 0) {
+            const articlesList = document.createElement('ul');
+            articlesList.classList.add('article-list');
+            data.articles.forEach(article => {
+              const listItem = document.createElement('li');
+              listItem.classList.add('promoted-articles-item');
+              const articleLink = document.createElement('a');
+              articleLink.href = article.html_url;
+              articleLink.textContent = article.title;
+              listItem.appendChild(articleLink);
+              articlesList.appendChild(listItem);
+            });
+            faqSectionContainer.appendChild(articlesList);
+          } else {
+            faqSectionContainer.textContent = 'No articles found in FAQ section.';
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching FAQ section:', error);
+          const faqSectionContainer = document.getElementById('faq-section');
+          faqSectionContainer.textContent = 'Error loading FAQ section.';
+        });
+    }
+
+    // Fetch and render FAQ section
+    fetchFAQSection();
+  });
+  </script>
+
+

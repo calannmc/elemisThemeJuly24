@@ -204,8 +204,8 @@ template {
 body {
   background-color: $background_color;
   color: $text_color;
-/*   font-family: $text_font; */
-  font-family: 'Franklin Gothic Book', sans-serif;
+font-family: $text_font;
+ 
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -5222,7 +5222,7 @@ html[lang|="zh"] .search-results-description em {
 .notification {
   border: 1px solid;
   display: table;
-  font-family: sans-serif;
+  font-family: $heading_font;
   font-size: 12px;
   padding: 13px 15px;
   transition: height .2s;
@@ -5719,7 +5719,7 @@ html[dir="rtl"] .notification-left-aligned {
 }
 
 .contact-us-title {
-  font-family: 'Franklin Gothic Demi', sans-serif;
+  font-family: $heading_font;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 22px;
@@ -8265,8 +8265,8 @@ zd-autocomplete-breadcrumbs-multibrand {
   -webkit-hyphens: auto;
   word-break: break-word;
   word-wrap: break-word;
-/*   font-family: $text_font; */
-  font-family: 'Franklin Gothic Book', sans-serif;
+ font-family: $text_font;
+  
   line-height: 1.6;
   overflow-x: auto;
 }
@@ -10751,7 +10751,7 @@ html[lang|="zh"] .search-results-description em {
 .notification {
   border: 1px solid;
   display: table;
-  font-family: sans-serif;
+  font-family: $text_font;
   font-size: 12px;
   padding: 13px 15px;
   transition: height .2s;
@@ -11250,7 +11250,7 @@ html[dir="rtl"] .notification-left-aligned {
 }
 
 .contact-us-title {
-  font-family: 'Franklin Gothic Demi', sans-serif;
+  font-family: $heading_font;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 22px;
